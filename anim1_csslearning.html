@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+body { background-color: #000099;}
+div  {color: yellow;
+    width: 100px;
+    height: 100px;
+    position:relative;
+    background-color: #0000aa;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:clockwise;
+    animation-name: example;
+    animation-duration:4s;
+    anination-iteration-count:infinite;
+    animation-direction:clockwise;
+    }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {  
+    0%   {background-color: #0000ff;     left:200px;   top:0px;}
+    25%  {background-color: yellow;  left:400px;   top:200px;}
+    50%  {background-color: blue;    left:200px;   top:400px;}
+    75%  {background-color: green;   left:0px;     top:200px;}
+    100% {background-color:red;            left:200px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+      0%   {background-color: #0000ff;     left:200px;   top:0px;}
+    25%  {background-color: yellow;  left:400px;   top:200px;}
+    50%  {background-color: blue;    left:200px;   top:400px;}
+    75%  {background-color: green;   left:0px;     top:200px;}
+    100% {background-color:red;            left:200px; top:0px;}
+
+}
+
+
+</style>
+</head>
+<body>
+<div>
+</body>
+</html>
