@@ -1,9 +1,9 @@
 <style>
 
 
-body { background-color:blue;color:white;}
+.body { background-color:blue;color:white;}
 
-div  {opacity:0.8;color:#ffffff;
+.div  {opacity:0.8;color:#ffffff;
     width: 100px;
     height: 100px;
     position:relative;
@@ -23,7 +23,7 @@ div  {opacity:0.8;color:#ffffff;
     100% {            left:200px; top:0px;}
 }
 
-q{opacity:0.2;}
+.q{opacity:0.2;}
 
 
 .button {
