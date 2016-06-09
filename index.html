@@ -1,9 +1,37 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style1.css">
+
+
+
+<style>
+.div2  {opacity:0.8;color:#ffffff;
+    width: 100px;
+    height: 100px;
+    position:relative;
+    background-color: #ff0000;
+    animation-name: o2;
+    animation-duration:2s;
+    animation-direction:anti_clockwise;
+    animation-iteration-count:infinite;
+
+    }
+
+@keyframes o2 {
+    0%   {background-color: #0000ff;     left:200px;   top:0px;}
+    25%  {  left:400px;   top:200px;}
+    50%  {  left:200px;   top:400px;}
+    75%  {   left:0px;     top:200px;}
+    100% {            left:200px; top:0px;}
+}
+
+q2{opacity:0.2;}
+
+</style>
+
 </head>
 <body class="body">
-        <a href="tim.html"  class="button" > STOP </a>
+        <q2><a href="index.html"  class="button" > STOP </a></q2>
 
         <button class="button"  onclick="myfunc()">START</button>
 
@@ -24,7 +52,7 @@ function myfunc()
          
        
      { 
-               x=x+"<div class="div">" +"<br>";
+               x=x+"<div class="div2">" +"<br>";
              
  
               
