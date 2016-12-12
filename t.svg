@@ -4,7 +4,10 @@
 	<defs>
   	<style 
   	type="text/css">
-  	@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+  	@import url('http://fonts.googleapis.com/css?family=Sonsie+One');
+  	text{
+  	   font-family: "Sonsie One";
+     	}
   	</style>
 	</defs>
 	<text x="30" y="70" font-size="72">T</text>
