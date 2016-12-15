@@ -1,3 +1,16 @@
+.image-class{
+	border-radius:500px;
+	height:400px;
+	width:400px;
+}
+.header
+{
+	background-color: #AAAAAAAA;
+	padding: 30px;
+	margin-bottom: 10px;
+	border-bottom-left-radius :10px;
+	border-bottom-right-radius:10px;
+}
 .inline_block_class{
 text-align:center;
 }
