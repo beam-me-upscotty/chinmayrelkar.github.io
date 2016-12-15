@@ -1,7 +1,7 @@
 .image-class{
-	border-radius:200px;
-	height:400px;
-	width:400px;
+	border-radius:150px;
+	height:300px;
+	width:300px;
 	max-height=100%;
 	max-width=100%;
 }
