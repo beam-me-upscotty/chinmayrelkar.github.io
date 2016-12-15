@@ -1,9 +1,7 @@
 
 
 
-.body { background-color:blue;color:white;}
-
-.div  {opacity:0.8;color:#ffffff;
+.boxanim  {opacity:0.8;color:#ffffff;
     width: 100px;
     height: 100px;
     position:relative;
@@ -28,15 +26,16 @@
 
 .button {
     
-    background-color: #0900aa;
+    background-color: #666666;
     border: none;
     color:white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 32px;
     margin: 4px 2px;
+    border-radius:10px;
     cursor: pointer;
 }
 
