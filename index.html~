@@ -21,7 +21,8 @@
   <style>
   
      .back{
-      font-family: 'Indie Flower', cursive;}
+      font-family: 'Indie Flower', cursive;
+      background-color: #eee;}
   </style>
 
 
@@ -34,9 +35,9 @@
             </div>
          </div>
          
-         <div	class="inline_block_class image-class">
-         	<img class="image-class"src="me.png">
-         	 <h1>Chinmay Relkar</h1>
+         <div	class="page inline_block_class">
+         	<img class="image-class" src="me.png">
+         	 <h>Chinmay Relkar</h>
          </div>
 </div>
 
