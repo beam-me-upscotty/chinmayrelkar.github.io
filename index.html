@@ -30,9 +30,9 @@
      }
   </style>
 
-
+ 	
 <body class="back">
-<div class="container"> 
+<div class="container" style="text-align:center;"> 
         
 	<div class="header" >
                <h1>Welcome</h1>
@@ -42,9 +42,22 @@
          		<img class="image-class" src="me.png"></img>
          	 	<h>Chinmay Relkar</h>
 	</div>
+	<div>
+		I'm an IT freak,<br>
+		love to code,<br>
+		learning to code better.<br>
+		Check out my codes at github.com/chinmay512
+	</div>
+	<div class="button" onclick="game_show()" id="game_show_button">The Game of Chances</div>
+	<div class="button" onclick="thots_show()" id="Thots_show_button">Some of my thoughts</div>
+
 </div>
 
-<div	class="container jumbotron page">
+
+<div	class="container jumbotron page" id="game_page" style="display: none;">
+
+  <div class="button" style="color:#888;background-color:inherit;float: right;" onclick='close_func("game_page","game_show_button")'>x</div>
+
 <div	class="container-fluid">
 <h1> The Game of Chances<br></h1>
 		<img 
@@ -52,9 +65,12 @@
 			style="height:40px;width:40px;" 
 			src="logo.png" ><h3 style="display:inline-block;">Some Thoughts</h3>
 </div>
-	<div style="text-align:center; height:30%;">
-		<img class="image-class" src="https://raw.githubusercontent.com/chinmay512/Game/master/Game/app/src/main/res/drawable/icon.png">
-		<h	style="font-size:30px; text-align:left;">	
+	<div style=" height:30%;">
+	
+	<img 	class="image-class" style="margin-top:15px;" 
+		src="https://raw.githubusercontent.com/chinmay512/Game/master/Game/app/src/main/res/drawable/icon.png">
+		
+		<h	style="font-size:30px; margin:12px;text-align:left;">	
 			The Game of chance is a compilation of 3 games namely 
 			<br>Rock Paper Scissor
 			<br>Dice Roll and Coin Toss.Do Give it a try... 
@@ -63,6 +79,7 @@
 		</h>
 		</img>
 	</div>
+	
 	<div style="text-align:right;"> 
            		
            		<div class="button" onclick="window.location='http://www.github.com/chinmay512/Game'">
@@ -128,6 +145,19 @@ Copyright 2016, Some Thoughts
     $(window).load(function(){
         $('#myModalstart').modal('show');
     });
-    
+</script>
+<script type="text/javascript">
+	function	game_show(){
+		document.getElementById("game_page").style.display="block";
+		document.getElementById("game_show_button").style.display="none";
+	}
+	function	thots_show(){
+		document.getElementById("thots_page").style.display="block";
+		document.getElementById("thots_show_button").style.display="none";
+	}
+  function  close_func(id_page,id_button){
+    document.getElementById(id_page).style.display="none";
+    document.getElementById(id_button).style.display="inline-block";
+  }
 </script>
 </html>
