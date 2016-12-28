@@ -7,13 +7,13 @@
 
  
   
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
    <!-- jQuery library -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
    <!-- Latest compiled JavaScript -->
-   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
   <head> 
@@ -26,34 +26,46 @@
      .back{
       font-family: 'Ubuntu', sans-serif;
       background-color:#ccc;
-      
+      text-align: center;      
      }
   </style>
 
  	
 <body class="back">
-<div class="container" style="text-align:center;"> 
         
-	<div class="header" >
-               <h1>Welcome</h1>
-	
-         
-	<div	style="text-align:center;">
-         		<img class="image-class" src="me.png"></img>
-         	 	<h>Chinmay Relkar</h>
-            <div style="display: inline-block;">
-            <h3 style="margin: 15px;width:100%; word-wrap:break-word;">
+        <div class="container-fluid">
+	<div class="header">
+
+      <h1>Welcome</h1>
+      <div	class="container" style="padding: 15px;">
+        
+        <div class="col-sm-4">
+          <img class="image-class" src="me.png">
+        </div>
+        
+        <div class="col-sm-8">
+        <div class="container-fluid" style="padding: 20px;">
+         	<h>Chinmay Relkar</h>
+          <h3 style="margin: 15px;width:100%; word-wrap:break-word;">
                 I'm an IT freak,
                 love to code,
                 learning to code better.
                 Check out my codes at github.com/chinmay512
-            </h3>
-            </div>
+          </h3>
+          </div> 
+        </div>
+      </div>
 	</div>
-	</div>
+  </div>
+<div class="page jumbotron" style="margin:50px;">
 	<div class="button" onclick="game_show()" id="game_show_button">The Game of Chances</div>
+  <h3 style="margin: 15px;width:100%; word-wrap:break-word;">
+             Hit this Button,
+             to know more about
+             the game of chances for Android
+    </h3>
+          
 </div>
-
 
 <div	class="container jumbotron page" id="game_page" style="display: none;">
 
@@ -61,12 +73,16 @@
 
 <div	class="container-fluid">
 <h1> The Game of Chances<br></h1>
-	<div>	<img 
-			class="image-class" 
-			style="height:40px;width:40px;" 
-			src="logo.png" ><h3 style="display:inline-block;">Some Thoughts</h3>
-      </div>
+	<div>	
+      <img 
+			     class="image-class" 
+			     style="height:40px;width:40px;" 
+			     src="logo.png" >
+      
+      <h3 style="display:inline-block;">Some Thoughts</h3>
+  </div>
 </div>
+
 <div class = "container">
 	<div class="col-sm-4">
 	<img 	class="image-class" style="margin-top:15px;" 
@@ -84,17 +100,18 @@
     </div>
     </div>
 
-	<div style="text-align:right;"> 
+  	 <div style="text-align:right;"> 
            		
-           		<div class="button" onclick="window.location='http://www.github.com/chinmay512/Game'">
-            			View Source code
-		</div>
-            	
+      <div  
+            class="button" 
+            onclick="window.location='http://www.github.com/chinmay512/Game'">
+            View Source code
+		  </div>
            		<div 	class="button" 
           			onclick="window.location='https://github.com/chinmay512/Game/raw/master/Game/app/app-release.apk'" download>
             			Download apk
             	</div>
-	</div>
+      </div>
 
 	
 		
@@ -108,8 +125,8 @@
          			<img 	class="image-class"
          				style="border-radius:10px;height:400px;width:220px;" 
          				src="Scrnsht3.png">
-         		</div>
-
+    </div>
+</div>
 	
 	
 
@@ -136,6 +153,7 @@
       </div>
     </div>
   </div>
+
 <footer style="text-align:center; background-color:black; position:fixed;padding:15px;font-size:20px;color:white;">
 Copyright 2016, Some Thoughts
 </footer>
