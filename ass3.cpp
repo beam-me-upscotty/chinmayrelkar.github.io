@@ -1,9 +1,16 @@
-#include<iostream>
+/**
+ * Created by chinmay on 11/1/17.
+ * Copyright 2016, Chinmay Relkar
+ */#include<iostream>
 #include<math.h>
 using namespace std;
 
 template<typename T>
 class node{
+	/**
+ * Created by chinmay on 11/1/17.
+ * Copyright 2016, Chinmay Relkar
+ */
 public:
 	T data;
 	node *left;
@@ -30,6 +37,10 @@ public:
 
 template<typename T>
 class Queue{
+	/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */
 	QueueNode<T> *start, *rear;
 	public:
 	Queue(){
