@@ -1,4 +1,7 @@
-#include<iostream>
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */#include<iostream>
 using namespace std;
 typedef enum {SERIOUS =1, MEDIUM_ILLNESS=2, GENERAL=3} Priority;
 
@@ -86,7 +89,10 @@ public:
 
 				cout<<"Enqueue SuccessFull";
 	}
-
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */
 	T dequeue(){
 		node<T> *p = start;
 		start = start->next;
@@ -110,7 +116,10 @@ public:
 		}
 	}
 };
-
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */
 int main(){
 	PriorityQueue<int> priorityQueue;
 	int choice;
