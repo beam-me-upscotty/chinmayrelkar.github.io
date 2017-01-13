@@ -1,3 +1,7 @@
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */
 #include<iostream>
 #include<string.h>
 #define size 30
@@ -179,7 +183,10 @@ void Infix<T>::toPostfix()
 	postfix[j]='\0';
 	cout<<"Postfix Infix is "<<postfix<<endl;
 }
-
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */
 template<typename T>
 void Infix<T>::reverse(T string1[30],T string2[30])
 {
@@ -326,7 +333,10 @@ int Infix<T>::evalPostfix()
 	cout<<"Result "<<result<<endl;
 }
 
-template<typename T>
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */template<typename T>
 int Infix<T>::evalPretfix()
 {
 
@@ -396,6 +406,10 @@ int Infix<T>::evalPretfix()
 	cout<<"\nThe answer is :";
 	cout<<output.pop();
 }
+/**
+ * Created by chinmay on 11/12/16.
+ * Copyright 2016, Chinmay Relkar
+ */
 int main()
 {
 	Infix<char> infix;
