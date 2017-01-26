@@ -29,3 +29,14 @@ h{
 	margin:30px;
 	
 }
+.ajbypass{
+  	display: none;
+  }
+@media screen and (max-width: 480px){
+    .aj{
+display: none;
+  }
+  .ajbypass{
+  	display: block;
+  }
+}

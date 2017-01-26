@@ -46,18 +46,20 @@
         <div class="col-sm-8">
         <div class="container-fluid" style="padding: 20px;">
          
-          <h3 style="margin: 15px;width:100%; word-wrap:break-word;">
+          <h3 class="aj" id="about" style="margin: 15px;width:100%; word-wrap:break-word;">
                 I'm an IT freak,
                 love to code,
                 learning to code better.
                 Check out my codes at github.com/chinmay512
           </h3>
+          <div class="ajbypass" onclick="Aboutme()">About me</div>
+  
           </div> 
         </div>
       </div>
 	</div>
   </div>
-<div class="page jumbotron" style="margin:50px;" id="game_show_button" >
+<div class="page jumbotron" style="margin:50px;" id="game_show_button" style="border-radius: 10px;">
 <div>
   <img  class="image-class" style="margin:15px;height: 200px;width: 200px;" 
     src="https://raw.githubusercontent.com/chinmay512/Game/master/Game/app/src/main/res/drawable/icon.png">
@@ -176,6 +178,9 @@ Copyright 2016, Some Thoughts
 		document.getElementById("game_page").style.display="block";
 		document.getElementById("game_show_button").style.display="none";
 	}
+  function  Aboutme(){
+    document.getElementById("about").style.display="block";
+  }
 	function	thots_show(){
 		document.getElementById("thots_page").style.display="block";
 		document.getElementById("thots_show_button").style.display="none";
