@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head> cube code</head>
+<style>
+  .cod{
+  background-color:#555;
+  color:#FFF;
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+  }
+</style>
+
+  <body>
+  <div id="test" onmousedown='return false;' onselectstart='return false;'>
+  <p>
+    #include <GL/glut.h>
+#include <iostream>
+using namespace std;
+GLfloat xRotated, yRotated, zRotated;
+void init(void)
+{
+    glClearColor(0,0,0,0);
+}
+bool xpos = false;
+
+void DrawCube(void)
+{
+
+     glMatrixMode(GL_MODELVIEW);
+    // clear the drawing buffer.
+    glClear(GL_COLOR_BUFFER_BIT);
+    glLoadIdentity();
+    glTranslatef(0.0,0.0,-10.5);
+    
+    if(xpos)
+        yRotated += 1;
+    else
+        yRotated -= 1;
+    cout<<xpos;
+    // rotation about Y axis
+    glRotatef(yRotated,0.0,1.0,0.0);
+    glColor3f(0.0f,0.0f,1.0f);
+    glutWireCube(3);            // End Drawing The Cube
+    glutSwapBuffers();
+    glutPostRedisplay();
+}
+
+
+
+void reshape(int x, int y)
+{
+    if (y == 0 || x == 0) return;  //Nothing is visible then, so return
+    //Set a new projection matrix
+    glMatrixMode(GL_PROJECTION);  
+    glLoadIdentity();
+    gluPerspective(40.0,(GLdouble)x/(GLdouble)y,0.5,20.0);
+    glMatrixMode(GL_MODELVIEW);
+    glViewport(0,0,x,y);  //Use the whole window for rendering
+}
+void Mouse(int button,int state,int x, int y)
+{
+    if(x>150)
+        xpos=true;
+    else 
+        xpos=false;
+    glutPostRedisplay();
+}
+int main(int argc, char** argv)
+{
+    glutInit(&argc, argv);
+    //we initizlilze the glut. functions
+    glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB);
+    glutInitWindowPosition(100, 100);
+    glutCreateWindow(argv[0]);
+    init();
+    glutDisplayFunc(DrawCube);
+    glutReshapeFunc(reshape);
+    glutMouseFunc(Mouse);
+    glutMainLoop();
+    return 0;
+}
+
+  </p></div>
+    </body>
+    </html>
