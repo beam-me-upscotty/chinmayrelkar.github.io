@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+div#one  {color:#ffffff;
+    width: 1%;
+    height: 2%;
+    margin:auto;
+    position:absolute;
+    background-color:#555;
+    border-radius:15px;
+    animation-name: o2;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;    }
+@keyframes o2 {
+    0%   {     left:12.5%;   top:12%;}
+    25%  {     left:13%;   top:12.5%;}
+    50%  {     left:12.5%;   top:13%;}
+    75%  {     left:12%;     top:12.5%;}
+    100% {     left:12.5%; top:12%;}
+}
+
+
+div#two  {color:#ffffff;
+    width: 1%;
+    height: 2%;
+    margin:auto;
+    background-color:#555;
+    position:absolute;
+    border-radius:15px;
+    animation-name: o;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;    }
+@keyframes o {
+    0%   {     left:12.5%;   top:13%;}
+    25%  {  left:12%;   top:12.5%;}
+    50%  {  left:12.5%;   top:12%;}
+    75%  {   left:13%;     top:12.5%;}
+    100% {            left:12.5%; top:13%;}
+}
+</style>
+
+<body>
+<div
+style="float:left;">
+<div id="one"></div>
+<div id="two"></div>
+<div>
+

@@ -1,0 +1,86 @@
+
+<div	class="container" style="background-color: #888;">
+
+	<div style="text-align:center;">
+		<h	style="margin:15px; font-size:32px; text-align:left;">	
+			The Game of chance is a compilation of 3 games namely 
+			<br>Rock Paper Scissor
+			<br>Dice Roll
+			<br>Coin Toss
+			<br>Also  
+		</h>
+
+	<div class=style="text-align:center;"> 
+           		
+           		<div class="button" onclick="window.location='http://www.github.com/chinmay512/Game'">
+            			The Game of Chance - Source code
+		</div>
+            	
+           		<div 	class="button" 
+          			onclick="window.location='https://github.com/chinmay512/Game/raw/master/Game/app/app-release.apk'" download>
+            			The Game of Chance - for Android
+            	</div>
+	</div>
+
+	</div>
+		
+		<div	style="text-align:center;">
+         			<img 	class="image-class" 
+         				style="border-radius:25px;" 
+         				src="scrnsht1.png">
+         			<img 	class="image-class" 
+         				style="border-radius:25px;"
+         				src="Scrnsht2.png">
+         			<img 	class="image-class"
+         				style="border-radius:25px;" 
+         				src="Scrnsht3.png">
+         		</div>
+
+	
+	
+
+</div>  
+
+<!-- Start Modal -->
+  <div class="modal fade"  id="myModalstart" role="dialog">
+    <div class="modal-dialog">
+     <!-- Modal content-->
+      <div class="modal-content back">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color:black;">Welcome</h4>
+        </div>
+        <div class="modal-body">
+          <div style="text-align:center; color:black;"><font size=5>Hey There, thanks for visiting.<br> Have a good time</font>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="#myModalstart">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+         
+    
+   </body>
+   <script type="text/javascript">
+    $(window).load(function(){
+        $('#myModalstart').modal('show');
+    });
+    
+</script>
+
+
+
+
+<div class="header" >
+               <h1>Welcome</h1>
+	</div>
+         
+	<div	class="inline_block_class">
+         		<img class="image-class" src="me.png"></img>
+         	 	<h>Chinmay Relkar</h>
+	</div>

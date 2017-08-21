@@ -1,0 +1,203 @@
+
+/* List of classes Declared here
+  
+  *** div.img& div.desc only for index.html***
+  1. div.img
+  2. div.desc
+  *** div.img& div.desc only for index.html***
+
+  3. .heade
+  4. top
+  5. .button1
+  6. .button
+  7. ul.vt
+  8. ul.hz
+  9. li.vt
+  10. li.hz
+  11. span.some     **for index.html only**
+  12. .body
+  13. .tip
+  
+  ***droper and drop only for schsc.html***
+  14. drop
+  15. droper
+  ***droper and drop only for schsc.html***
+*/
+div.img {
+    margin:auto;
+    display:inline-block;
+    border: 1px solid #555;
+    width: 180px;
+      box-shadow:5px 5px 5px #555;}
+
+
+div.img:hover {
+    outline: 1px solid #555;
+      box-shadow:0px 0px 10px #555;}
+
+div.img img {
+    width:180px;
+    height:200px;
+    
+    text-decoration:none;}
+
+div.desc {
+    background-color: #00aa00;
+    padding: 15px;
+    text-align: center;
+}
+
+.heade {
+font-family:"Lucida Console", monospace;
+font-size:100px;
+color:white;
+display:inline-block;
+max-height:115px;}
+
+
+
+li a:hover {
+font-size:20px;
+color:white;}
+
+ul.hz:hover {
+box-shadow:2px 2px 10px #555;
+border-bottom:solid #555 2px;
+border-left:solid #555 2px;
+border-right:solid #555 2px;
+border-radius:10px;      }
+
+top {
+border-bottom: solid 2px #ffffff;
+border-radius:10px;}
+
+.button1{
+
+      color:white;
+      border:none;
+      max-width:100%;
+      display:block;
+      padding: 15px;
+      text-align:left;
+      font-size:16px;
+      margin:5px;
+      text-decoration:none;
+       }        
+
+.button{
+      float:right; 
+      color:white;
+      border:none;
+      max-height:10%;
+      display:inline-block;
+      padding: 15px;
+      text-align:left;
+      font-size:16px;
+      margin:5px;
+      text-decoration:none;
+       }        
+ul.vt {font-family:"Lucida Console", monospace;
+    display:block;
+    border-left:solid #fff 2px;
+    border-right:solid #fff 2px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width:100%;
+    background-color: #555;
+    height:100%;
+    position:fixed;
+    overflow:auto;
+    border-radius: 10px;
+}	
+
+ul.hz {font-family:"Lucida Console", monospace;
+box-shadow:1px 1px 20px #555;    float:right;
+    display:	block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width:50%;
+    background-color: #555;
+    max-height:10%;
+
+border-bottom:solid #fff 2px;
+border-left:solid #fff 2px;
+border-right:solid #fff 2px;
+border-radius:10px;    position:relative;
+    
+}	
+
+li.hz {display:inline;
+max-height=10%;}
+
+li.vt {display:block;
+max-width=25%;}
+
+.body {  background-color:#00aa00;   
+    background: linear-gradient(#00aa00,#00bb00); /* Standard syntax */
+    background-repeat:no-repeat;
+    height:100%;
+  
+font-family:"Lucida Console", monospace; 
+color:#fff;
+}
+
+.heade:hover .tip { visibility:visible;display:block;
+}
+
+.tip {
+    visibility: hidden;
+    display:none;
+    max-width: 300px;
+    opacity:0.8;
+    background-color:#00bb00;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size:15px;
+    /* Position the tooltip */
+    
+    position:fixed right;
+    z-index: 1;
+}
+ a:hover {
+ border-bottom:2px solid #555;
+}
+
+span.some { 
+           position:absolute;
+           top:30%;
+           left:12.5%;
+           right:12.5%;
+           
+           }
+
+div.droper
+   {  color:white;
+      border:none;
+      max-width:100%;
+      display:block;
+      padding: 15px;
+      text-align:left;
+      font-size:16px;
+      margin:5px;
+      text-decoration:none;
+       }  
+
+div.drop { 
+  display:none; 
+}
+
+div.droper:hover div.drop 
+{
+    display:block;
+    color:#00aa00;
+  }
+
+div.droper:hover 
+{
+    font-size:18px;
+    background-color:#00aa00;
+  }

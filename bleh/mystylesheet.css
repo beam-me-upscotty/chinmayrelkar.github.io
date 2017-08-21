@@ -1,0 +1,144 @@
+
+
+	.title{
+		color:white;
+		
+		font-size:40px;
+
+	}
+
+	.navbar{
+		color: white;
+		background-color: rgba(55,55,88,0.5);
+	}
+
+	.navbar:hover{
+	background-color: rgba(55,55,88,0.7);
+			}
+	.button-class
+	{
+		padding: 15px;
+      	text-align :center;	
+	}
+	.button-class:hover{
+		
+		font-weight: bolder;
+		
+    }
+	.button-class-fab
+	{
+		color: white;
+		background-color: rgba(55,55,88,0.5);
+      	padding-left: 15px;
+      	padding-right: 13px;
+      	padding-top: 10px;
+      	padding-bottom: 10px;
+      	text-align :center;
+		border-radius: 25px;
+		border-color: white;
+		border-width: 1px;
+		border-style: solid;
+		  box-shadow:0px 0px 5px #555;
+		
+	}
+	.button-class-fab:hover{
+		background-color: rgba(55,55,88,0.8);
+      	  box-shadow:0px 0px 10px #555;
+    }
+	
+	.stat-class
+	{
+		color: white;
+		display: block;
+		text-align: center;
+		padding: 15px;
+		font-weight:bold;
+		border-radius: 10px;
+		border-color: white;
+		border-width: 1px;
+		border-style: solid;
+		margin: 5px;
+	}
+	.table-class{
+		color: white;
+		padding: 15px;
+		border-radius: 10px;
+		border-color: white;
+		border-width: 1px;
+		border-style: solid;
+		margin-top: 15px;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.form-class-base-col{
+		padding: 10px;
+		border-radius: 5px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: white;
+		background-color: rgba(0,0,0,0.2);
+		height:100%;
+
+	}
+
+	.form-class-base-col:hover
+	{
+			  box-shadow:0px 0px 10px #002;
+		background-color: rgba(0,0,0,0.15);
+	}
+
+	.form-class-base{
+		height:100%;
+		width: 100%;
+		background-color: rgba(0,0,0,0.1);
+		padding: 10px;
+		border-radius: 5px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: white;
+		}
+	.form-class-base:hover
+	{
+		
+		background-color: rgba(00,0,0,0.3);
+		   box-shadow:0px 0px 30px #002;
+		}
+
+	tr:hover
+	{
+		background-color: rgba(0,0,0,0.2);
+		font-size: 30px;
+	}
+	
+	th{
+		text-align: center;
+
+	}
+	body{
+		background-image: url("background.jpg");
+		font-family:"Lucida Console", monospace;
+	}
+	.restrict{
+		float: right;
+		max-width: 200px;
+		max-height: 50px;
+	}
+	.hidden
+	{
+		display:none;
+	}
+	img{
+	border-radius: 90px ;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	background-color: rgba(255,255,255,.5);
+	padding-top: 15px;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+
+	}
+	div bb{
+		display: inline;
+	}
